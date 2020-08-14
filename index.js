@@ -36,7 +36,6 @@ function connect () {
 
   ws.onmessage = msg => {
     if (msg.type === 'message') {
-      console.log(msg)
       const data = JSON.parse(msg.data)
       axios.get('https://api.live.bilibili.com/room/v1/Room/playUrl', {
         params: data
