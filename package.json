@@ -1,0 +1,24 @@
+{
+  "name": "getPlayUrl-nodejs",
+  "version": "0.1.0",
+  "description": "A single node.js script that implements getPlayUrl's front-end functionality.",
+  "main": "index.js",
+  "repository": "https://github.com/CytoidCommunity/getPlayUrl-nodejs.git",
+  "author": {
+    "name": "CytoidCommunity",
+    "email": "community@cytoid.io",
+    "url": "https://cytoidcommunity.github.io/"
+  },
+  "contributors": "ZeroAurora <zeroaurora233@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
